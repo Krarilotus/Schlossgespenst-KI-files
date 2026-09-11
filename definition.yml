@@ -1,9 +1,20 @@
 name: Schlossgespenst-KI-files
 display-name: Schlossgespenst AI -files
 author: Schlossgespenst
-version: 1.0.7
+version: 1.0.8
 dependencies:
   aiSwapper: ^1.1.0
   framework: ">=3.0.0"
   frontend: ">=1.0.2"
 type: plugin
+tags:
+- ai
+- aic
+- aiv
+family:
+- name: schlossgespenst-ai
+capabilities:
+  files: true
+  code: false
+  configuration: false
+  options: false
